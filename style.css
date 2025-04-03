@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    border: none;
+    outline: none;
+}
+
+body {
+    background-color: rgb(160, 92, 223);
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 25em;
+    background-color: aliceblue;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    padding: 2em;
+    border-radius: 0.8em;
+}
+
+.top-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+    margin: 10px 10px;
+}
+
+.title {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    margin: 10px 10px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin: 10px 10px 10px 0px;
+}
+
+input#amount {
+    font-weight: 400;
+    font-size: 1.2em;
+    display: block;
+    width: 100%;
+    border-radius: 0.5em;
+    border-bottom: 2px solid rgb(205, 195, 195);
+    padding: 10px 10px;
+}
+
+.dropdown {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+select {
+    border-radius: 0.5em;
+    font-weight: 400;
+    font-size: 1em;
+    height: 40px;
+}
+
+select option {
+    background-color: rgb(239, 228, 249);
+}
+
+#convert {
+    width: 100%;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 0.5em;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(176, 102, 245);
+}
+
+#convert:hover {
+    background-color: blueviolet;
+}
+
+#result {
+    width: 100%;
+    background-color: rgb(222, 193, 250);
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0.5em;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+    
+}
